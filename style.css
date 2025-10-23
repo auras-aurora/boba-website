@@ -74,7 +74,7 @@ p {
 
 }
 
-.tennisrow {
+.row {
 
     display: flex;
 
@@ -84,7 +84,7 @@ p {
 
 }
 
-.tenniscolumn {
+.column {
     
     flex: 20%;
 
@@ -92,7 +92,7 @@ p {
 
 }
 
-.tenniscolumn img {
+.column img {
     
     margin-top: 8px;
 
@@ -101,4 +101,79 @@ p {
     max-width: 100%;
 
     height: auto;
+
+    border-radius: 5px;
+
+}
+
+hr {
+
+    background-color: rgb(10, 32, 92);
+
+    height: 6px;
+
+    width: 30%;
+
+    margin-left: 0px;
+
+    border: none;
+
+}
+
+h2 {
+
+    font-family: Georgia;
+
+    font-size: 80px;
+
+    color: rgb(10, 32, 92);
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+}
+
+h3 {
+
+    font-family: Courier;
+
+    font-size: 50px;
+
+    color: rgb(32, 95, 155);
+
+    margin-top: -5px;
+
+    margin-bottom: 5px;
+
+}
+
+button {
+
+    background-color: transparent;
+    
+    border: none;
+
+    font-size: 40px;
+
+    color: rgb(79, 125, 168);
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    color: rgb(255, 221, 28);
+
+}
+
+.bobaoverlay {
+
+    background-color: rgba(203, 231, 255, 0.9);
+
+    padding: 15px;
+
+    border-radius: 20px;
+
 }
